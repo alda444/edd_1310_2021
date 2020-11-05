@@ -2,7 +2,7 @@ class Array:
    def __init__ (self, tam):
    self.__info = [0 for x in range (tam)]
 
-   def get_item( self, pocision ):
+   def get_item( self, posicion ):
        dato = 0
        try:
            dao = self.__info[posicion]
